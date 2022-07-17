@@ -1,0 +1,66 @@
+ul {
+  text-align: right;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+nav ul li {
+  float: right;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+div {
+  display: block;
+  border: solid 2px #ccc;
+  background-color: #eee;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.mainvisual img {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+}
+ 
+section h2 {
+  text-align: center;
+}
+
+section div {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+section img {
+  border-radius: 50%;
+  /* height: 100px; */
+}
+
+section ul {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+  background-color: #eee;
+}
+
+section ul li img,
+h3 
+{
+  width: 100%;
+  text-align: center;
+  border-radius: 0%;
+}
+
+footer {
+  text-align: center;
+}
