@@ -26,7 +26,7 @@ ul {
 .mainvisual img {
     width: 100%;
     text-align: center;
-    height: 400px;
+    height: 100%;
 }
  
 section h2 {
@@ -40,8 +40,8 @@ section div {
 }
 
 section img {
-  border-radius: 50%;
-  /* height: 100px; */
+  height: 100%;
+  width: 100%;
 }
 
 section ul {
@@ -51,6 +51,11 @@ section ul {
   margin: auto;
   height: 100%;
   background-color: #eee;
+}
+
+section div img {
+  border-radius: 50%;
+  max-width: 200px;
 }
 
 section ul li img,
@@ -63,4 +68,14 @@ h3
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width:480px) {
+	header {
+		width: 100%;
+	}
+
+	main {
+		width: 100%;
+	}
 }
