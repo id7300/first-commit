@@ -1,60 +1,69 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visit GUAM-Site</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
-</head>
-<body>
-  <header>
-    <h1>Profile</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="">
-            Visit GUAM
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-  </header>
-  <main>
-    <div class="mainvisual"><img src="img/Guam.jpg" alt="My first visit to GUAM!!"></div>
-    <section class="about">
-      <h2>Visit GUAM</h2>
-      <div>
-        <h3>GUAM is so Exiteng!!</h3>
-        <img src="img/GuamMyPct.jpg" alt="GuamMyPct">
-        <p>
-          In July,14-19,2019 I visited GUAM!<br>
-          How Exiting Places, are there!<br>
-          Show you my pictures!!
-        </p>
+  <head>
+    <meta charset="utf-8">
+    <title>Visit GUAM-Site</title>
+    <meta name="description" content="VISIT TO GUAMグアム旅行の備忘録">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header id="header" class="wrapper">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#visitguam"> Visit GUAM</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="mainvisual">
+        <img src="img/Guam.jpg" alt="MyFirstVisitToGUAM!!">
       </div>
-    </section>
-    <section class="bicycle">
-      <h2>So Beautiful GUAM</h2>
-      <ul>
-        <li>
-          <img src="img/GuamPct1.jpg" alt="Landscape(GUAM)">
-          <h3>Landscape in GUAM 1</h3>
-        <li>
-          <img src="img/GuamPct2.jpg" alt="Landscape(GUAM)">
-          <h3>Landscape in GUAM 2</h3>
-        <li>
-          <img src="img/GuamPct3.jpg" alt="Landscape(GUAM)">
-          <h3>Landscape in GUAM 3</h3>
-      </ul>
-    </section>
-  </main>
-</body>
-<footer>@MyGUAM.co</footer>
+      <section id="about" class="wrapper">
+        <h2 class="section-title">Visit GUAM</h2>
+        <div class="content">
+          <img src="img/GuamMyPct.jpg" alt="GuamMyPct">
+          <div class="text">
+            <h3 class="content-title">GUAM is so Exciting!!</h3>
+            <p>
+              In July,7-10,2019 I visited GUAM!
+              <br>
+              How Exciting Places, are there!
+              <br>
+              Show you my pictures!!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="visitguam" class="wrapper">
+        <h2 class="section-title">So Beautiful GUAM</h2>
+        <ul>
+          <li>
+            <img src="img/GuamPct1.jpg" alt="Landscape(GUAM)">
+            <h3 class="content-title">Landscape in GUAM 1</h3>
+            <p>Landscape in GUAM 1</p>
+          </li>
+          <li>
+            <img src="img/GuamPct2.jpg" alt="Landscape(GUAM)">
+            <h3 class="content-title">Landscape in GUAM 2</h3>
+            <p>Landscape in GUAM 2</p>
+          </li>
+          <li>
+            <img src="img/GuamPct3.jpg" alt="Landscape(GUAM)">
+            <h3 class="content-title">Landscape in GUAM 3</h3>
+            <p>Landscape in GUAM 3</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>&copy; 2019 MyGUAM</p>
+    </footer>
+
+  </body>
+
 </html>
