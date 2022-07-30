@@ -1,4 +1,6 @@
-/* やり直した CSSです */
+git remote add origin https://github.com/id7300/workTest3.git
+git branch -M main
+git push -u origin main/* やり直した CSSです */
 @charset "UTF-8";
 
 html {
